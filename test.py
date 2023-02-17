@@ -2,7 +2,7 @@ import urllib.request
 from urllib.error import HTTPError
 import json
 
-api_key = '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'
+api_key = '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'
 
 def predict(api_key, model_name, prompt, temperature=0, logprobs=None, n=1):
     header = {'Content-Type': 'application/json',
